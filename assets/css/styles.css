@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(35, 35, 35);
+  font-family: "Consolas", monospace;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+i {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 3.2rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin: 1.2rem 0 2rem 0;
+}
+
+.contact {
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contact a {
+  font-size: 2rem;
+}
+
+.fa-download,
+.fa-envelope,
+.fa-linkedin,
+.fa-github {
+  transition: color 0.15s;
+}
+
+.fa-download:hover {
+  color: #0084b4;
+}
+
+.fa-envelope:hover {
+  color: #db3236;
+}
+
+.fa-linkedin:hover {
+  color: #007bb6;
+}
+
+.fa-github:hover {
+  color: #6cc644;
+}
